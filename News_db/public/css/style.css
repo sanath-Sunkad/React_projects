@@ -1,0 +1,40 @@
+body {
+margin: 0;
+font-family: 'Times New Roman';
+}
+
+header {
+    position:fixed;
+    background: rgb(73, 86, 211);
+    text-align: center;
+    width:100%;
+    margin-top: 0px;
+
+
+}
+
+.logo {
+    font-size: 40px;
+    font-family: monospace;
+    color:white; 
+} 
+
+header input{
+    font-size: 20spx;
+    font-family: Courier;
+    margin: 20px 0px 10px 0px;
+
+}
+
+.news_item{
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom:solid 1px rgb(67, 70, 218);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.newslist{
+   padding-top: 24%;
+}
