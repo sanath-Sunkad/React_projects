@@ -73,7 +73,7 @@ footer {
 }
 
 .item_slider .caption {
-    color:black;
+    color:white;
     position: absolute;
     right: 0px;
     padding: 20px;
@@ -143,9 +143,13 @@ footer {
 /*===================================
             BLOCKS
 ===================================*/
-
-.home_block {
-    display: flex; 
+.home_block{
+    display: block;
+    height:540px;
+    width:100%;
+}
+/* .home_block {
+    display: bloc; 
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 40px;
@@ -168,10 +172,34 @@ footer {
 
 .home_block .item.sm  {
     width:20%;
+} */
+
+/* .home_block .item .image{
+    height: 270px;
+    background-size: cover !important;
+    background-position: center center !important;
+} */
+.home_block .item.lg  {
+    width:50%;
 }
 
-.home_block .item .image{
+.home_block .item.md  {
+    width:30%;
+    animation-delay: 500ms;
+}
+
+.home_block .item.sm  {
+    width:20%;
+}
+.home_block .item {
+    float: left;
+    position: relative;
     height: 270px;
+    overflow: hidden;
+}
+.home_block .item .image {
+    height:100%;
+    width:100%;
     background-size: cover !important;
     background-position: center center !important;
 }

@@ -78,8 +78,8 @@ class Subscriptions extends Component {
                 </div>
 
                 <small>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
+                The National Basketball Association is a men's professional basketball league in North America, composed of 30 teams.
+                &#169; sanathsunkad@gmail.com 
                 </small>
             </div>
         )
